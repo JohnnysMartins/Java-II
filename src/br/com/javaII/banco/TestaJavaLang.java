@@ -9,7 +9,7 @@ public class TestaJavaLang {
 		curso = curso.toUpperCase();
 		
 		System.out.println(curso);
-		
+		System.out.println("Meu nome nao é johnny");
 		System.out.println(curso.length());
 		
 //		Conta c1 = new Conta(500.0);
