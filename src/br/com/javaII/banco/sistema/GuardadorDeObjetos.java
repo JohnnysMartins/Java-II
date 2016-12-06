@@ -1,4 +1,4 @@
-package br.com.javaII.banco;
+package br.com.javaII.banco.sistema;
 
 import br.com.javaII.banco.conta.Conta;
 
