@@ -2,7 +2,19 @@ package br.com.javaII.banco.conta;
 
 public class ContaCorrente extends Conta implements Tributavel {
 
-    public void atualiza(double taxa) {
+    private int conta;
+	private String nome;
+	
+	public ContaCorrente(){
+		
+	}
+	public ContaCorrente(int conta, String nome) {
+    	this.conta = conta;
+    	this.nome = nome;
+    	
+    }
+
+	public void atualiza(double taxa) {
         this.saldo += this.saldo * taxa * 2;
     }
 
