@@ -2,6 +2,7 @@ package br.com.javaII.banco.conta;
 
 public class Cliente implements Autenticavel {
 	private String nome;
+	int conta;
 	private String endereco;
 	// ...
 	

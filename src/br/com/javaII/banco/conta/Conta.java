@@ -6,7 +6,7 @@ package br.com.javaII.banco.conta;
  */
 public abstract class Conta {
     protected double saldo;
-    
+    protected String nome;
     
     
     public double getSaldo() {
@@ -44,6 +44,6 @@ public abstract class Conta {
     @Override
     public boolean equals(Object obj) {
     	Conta outra = (Conta) obj;
-    	return outra.saldo == this.saldo;
+    	return outra.saldo == this.saldo && this.nome.equals(outra.nome);
     }
 }
